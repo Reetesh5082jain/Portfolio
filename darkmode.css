@@ -1,0 +1,162 @@
+/* // Dark mode style */
+
+/* Dark mode toggle button styles */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background-color: #000;
+    padding: 0.7rem 1.1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    color: wheat;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-right: 7px;
+  }
+
+  
+  .dark-mode-toggle svg {
+    margin-right: 0.5rem; /* Space between icon and text */
+    margin-left: 0.5rem; /* Space between icon and text */
+  }
+  /* .dark-mode-toggle:hover {
+    box-shadow: 0 3px 15px 3px rgb(0 0 0 / 15%);
+    margin-bottom: 3px;
+    transition: all 0.5s ease-in-out;
+  }
+   */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .content h3 {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .content p {
+    color: #b0b0b0;
+  }
+  
+  body.dark-mode .hero-picture img {
+    filter: brightness(0.8);
+  }
+  
+  body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  body.dark-mode .card .small {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .card h3 {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .card p {
+    color: #b0b0b0;
+  }
+  
+  body.dark-mode .btn a {
+    color: #ffffff;
+    background-color: #ff5f00;
+  }
+  
+  body.dark-mode .btn a:hover {
+    background-color: #e64a00;
+  }
+  
+  /* Project card dark mode styles */
+  body.dark-mode .project-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  body.dark-mode .project-card .small {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .project-card h3 {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .project-card p {
+    color: #b0b0b0;
+  }
+  
+  body.dark-mode .project-card .btn a {
+    color: #ffffff;
+    background-color: #ff5f00;
+  }
+  
+  body.dark-mode .project-card .btn a:hover {
+    background-color: #e64a00;
+  }
+  body.dark-mode .footer-logo h3 {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .footer-links .links .small {
+    color: #ff5f00;
+  }
+  
+  body.dark-mode .footer-links .links a {
+    color: #b0b0b0;
+  }
+  
+  body.dark-mode .footer-links .links a:hover {
+    color: #ffffff;
+  }
+  /* Get in Touch section dark mode styles */
+  body.dark-mode #contact {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  body.dark-mode #contact h3 {
+    color: #ff5f00; /* Bright orange for heading */
+  }
+  
+  body.dark-mode #contact p {
+    color: #b0b0b0; /* Light grey for paragraph text */
+  }
+  
+  body.dark-mode #contact .btn a {
+    color: #ffffff; /* White text for button */
+    background-color: #ff5f00; /* Bright orange background for button */
+  }
+  
+  body.dark-mode #contact .btn a:hover {
+    background-color: #e64a00; /* Darker orange on hover */
+  }
+  
+  
+  body.dark-mode .hero {
+    background-color: #1e1e1e; /* Dark background for content */
+    color: #ffffff; /* White text for content */
+   
+  }
+  
+  body.dark-mode .content .small {
+    color: #ff5f00; /* Bright orange for small text */
+  }
+  
+  body.dark-mode .content h3 {
+    color: #ff5f00; /* Bright orange for heading */
+  }
+  
+  body.dark-mode .content p {
+    color: #b0b0b0; /* Light grey for paragraph text */
+  }
+  
+  body.dark-mode .content #typewriter {
+    color: #ffffff; /* White text for typewriter effect */
+  }
